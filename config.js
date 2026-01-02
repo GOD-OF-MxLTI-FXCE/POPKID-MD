@@ -7,17 +7,17 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // --- BOT CORE SETTINGS ---
-    SESSION_ID: process.env.SESSION_ID || "popkid-session",
-    PREFIX: process.env.PREFIX || ".",
-    BOT_NAME: process.env.BOT_NAME || "POPKID-MD",
+    SESSION_ID: process.env.SESSION_ID || "POPKID;;;qJlEiJbA#1IsSXcP-b-AMjiCfPkXb7YJ8sRljJf7ksh3PAy6ypTM",
+    PREFIX: process.env.PREFIX || "@",
+    BOT_NAME: process.env.BOT_NAME || "𝐓𝐀𝐁𝐀𝐒𝐂O",
     DESCRIPTION: process.env.DESCRIPTION || "© popkid xtr bot",
     MODE: process.env.MODE || "public", // Options: public, private, inbox, group
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
     
     // --- OWNER/DEV SETTINGS ---
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "254732297194",
-    OWNER_NAME: process.env.OWNER_NAME || "POPKID",
-    DEV: process.env.DEV || "254732297194", // Developer number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "50936744924",
+    OWNER_NAME: process.env.OWNER_NAME || "𝐓𝐀B𝐀𝐒𝐂𝐎",
+    DEV: process.env.DEV || "50936744924", // Developer number
 
     // --- MESSAGING & VISIBILITY ---
     READ_MESSAGE: process.env.READ_MESSAGE || "false", // Auto read private messages
@@ -50,8 +50,8 @@ module.exports = {
     
     // --- GROUP & SECURITY ---
     ANTI_LINK: process.env.ANTI_LINK || "true",
-    ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
-    DELETE_LINKS: process.env.DELETE_LINKS || "false", // Automatic delete links without kick
+    ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
+    DELETE_LINKS: process.env.DELETE_LINKS || "true", // Automatic delete links without kick
     ANTI_BAD: process.env.ANTI_BAD || "true",
     ANTI_VV: process.env.ANTI_VV || "true", // Anti view once
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", // Anti delete path
